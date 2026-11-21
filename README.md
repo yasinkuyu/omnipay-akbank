@@ -142,6 +142,7 @@ vendor/bin/phpunit
 
 - **[Omnipay: NestPay (EST / Payten)](https://github.com/yasinkuyu/omnipay-nestpay)** — İş Bankası, Akbank, Halkbank, Ziraat, TEB, QNB, ING, Şekerbank, Anadolubank sanal POS'u; 3D Pay Hosting
 - **[Omnipay: GVP (Garanti BBVA)](https://github.com/yasinkuyu/omnipay-gvp)** — Garanti BBVA sanal POS'u; Ortak Ödeme Sayfası
+- **[Omnipay: QNB](https://github.com/yasinkuyu/omnipay-qnb)** — QNB sanal POS'u (PayFor); ortak ödeme sayfası
 - **[Omnipay: Paratika](https://github.com/yasinkuyu/omnipay-paratika)** — Paratika, VakıfPayS ve ZiraatPay ortak ödeme sayfası
 - **[Omnipay: Paycell SDK](https://github.com/yasinkuyu/omnipay-paycell-sdk)** — Turkcell Paycell ödeme sayfası (Web SDK)
 - **[Omnipay: Paycell API](https://github.com/yasinkuyu/omnipay-paycell)** — Turkcell Paycell ödeme API'si
