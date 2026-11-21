@@ -1,0 +1,4 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+
+{"txnCode":"1003","responseCode":"VPS-0000","responseMessage":"BAŞARILI","hostResponseCode":"00","hostMessage":"000 ONAY","txnDateTime":"2026-11-21T22:50:00.000","terminal":{"merchantSafeId":"2023090417500272654BD9A49CF07574","terminalSafeId":"2023090417500284633D137A249DBBEB"},"order":{"orderId":"SIP-1"},"transaction":{"authCode":"306460","rrn":"411024360239","batchNumber":43,"stan":90}}
