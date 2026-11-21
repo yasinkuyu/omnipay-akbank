@@ -1,0 +1,27 @@
+{
+    "name": "yasinkuyu/omnipay-akbank",
+    "type": "library",
+    "description": "Akbank virtual POS gateway for Omnipay: hosted payment page (3D Pay Hosting), HMAC-SHA512 signing, return verification, refund, void, order query",
+    "keywords": ["akbank", "sanal pos", "3d secure", "3d pay hosting", "ortak odeme sayfasi", "omnipay", "gateway", "payment"],
+    "homepage": "https://github.com/yasinkuyu/omnipay-akbank",
+    "license": "MIT",
+    "authors": [
+        {"name": "Yasin Kuyu", "email": "yasinkuyu@gmail.com"},
+        {"name": "Contributors", "homepage": "https://github.com/yasinkuyu/omnipay-akbank/contributors"}
+    ],
+    "autoload": {"psr-4": {"Omnipay\\Akbank\\": "src/"}},
+    "autoload-dev": {"psr-4": {"Omnipay\\Akbank\\Tests\\": "tests/"}},
+    "require": {
+        "php": "^8.1",
+        "ext-json": "*",
+        "omnipay/common": "^3.3"
+    },
+    "require-dev": {
+        "omnipay/tests": "^4.1",
+        "php-http/guzzle7-adapter": "^1.0",
+        "phpunit/phpunit": "^9.6"
+    },
+    "config": {"allow-plugins": {"php-http/discovery": true}},
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
